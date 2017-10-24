@@ -1,5 +1,7 @@
 {
   "name": "p-base",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "4.0.0-beta.2"
+  }
 }
