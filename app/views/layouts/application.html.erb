@@ -15,6 +15,10 @@
       <%= render 'layouts/alerts' %>
     </div>
 
-    <%= yield %>
+    <div class="content">
+      <div class="params[:controller] params[:action]">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
